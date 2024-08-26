@@ -5,9 +5,11 @@ import orderFood from "../assets/images/orderFood.png"
 import IconPatchCheckFill from "../components/icons/iconPatch";
 import pickup from "../assets/images/pickup.png"
 import enjoy from "../assets/images/enjoy.png"
+import Layout from "../Layouts/Layout";
 
 function Home(){
     return(
+        <Layout>
         <div>
             {/*hero section*/ }
             <section className="flex flex-col-reverse items-center justify-center py-5 md:flex-row md:gap-7 bg-gradient-to-l from-amber-200 to-orange-100">
@@ -142,6 +144,7 @@ function Home(){
 
             </section>
         </div>
+        </Layout>
     );
 }
 export default Home;
