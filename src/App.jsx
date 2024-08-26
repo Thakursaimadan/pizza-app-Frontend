@@ -1,8 +1,15 @@
 import './App.css'
-
+import Home from './pages/Home'
+import Layout from './Layouts/Layout'
 function App() {
   return (
-    <div className='text-yellow-600'>home</div>
+  <div>
+    <Layout>
+      <Home />
+    </Layout>
+  </div>
+   
+
   )
 }
 
